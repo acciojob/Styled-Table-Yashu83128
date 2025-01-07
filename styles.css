@@ -1,1 +1,30 @@
-/* your code */
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius:25px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+	border-radius:25px;
+}
+
+/* Padding for cells */
+th, td {
+    padding: 10px;
+}
+
+/* Header styling */
+thead {
+    background-color: blue;
+    color: white;
+}
+
+/* Row colors */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White */
+}
+
+tbody tr:nth-child(even) {
+    background-color:  #f2f2f2; /* Light gray */
+}
+
